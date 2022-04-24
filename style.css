@@ -65,7 +65,7 @@
     font-family: 'Fira Sans', sans-serif;
 }
 .about{
-    font-size: 30px;
+    font-size: 22px;
     font-family: 'Libre Bodoni', serif;
 }
 .moreabout{
@@ -138,4 +138,9 @@
 .introcontainer{
     text-align: justify;
     padding-top: 10px;
+    padding-left: 25px;
+}
+.skillscontainer{
+    padding-left: 40px;
+    padding-top: 20px;
 }
