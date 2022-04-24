@@ -15,7 +15,7 @@
 
 .sidebar{
     background-color: rgb(144, 159, 165);
-    width: 15vw;
+    width: 139px;
     font-family: 'Libre Bodoni', serif;
     height: 100vh;
 }
@@ -28,6 +28,12 @@
     list-style: none;
     font-size: 20px;
     padding: 22px 0;
+    font-weight: bold;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
 }
 .main{
     /*background-color: yellow;*/
@@ -65,11 +71,12 @@
 .moreabout{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    margin-top: 23px ;
 }
 .buttons{
     margin-top: 30px;
 }
-.buttons button{
+.btn{
     padding: 9px 14px;
     border-radius: 22px;
     color: white;
@@ -79,7 +86,10 @@
     margin: 0 3px;
     cursor: pointer;
 }
-.buttons button:hover{
+.btn-sm{
+    font-size: 10px;
+}
+.btn:hover{
     background-color: white;
     color: rgb(26, 24, 24);
 
@@ -88,4 +98,44 @@
 .devPic img{
     height: 60vh;
     
+}
+
+.contactform{
+    font-family: 'Libre Bodoni', serif;
+    padding: 0 44px;
+    font-size: 20px;
+}
+
+.contactform h1{
+    font-family: 'Tapestry', cursive;
+    padding: 12px 0;
+    font-weight: 300;
+}
+.contactform form div{
+    padding: 14px 0;
+    display: flex;
+        flex-direction: column;
+}
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+
+}
+.contactform form div input{
+    width: 24vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: 5px 0;
+}
+.introcontainer{
+    text-align: justify;
+    padding-top: 10px;
 }
