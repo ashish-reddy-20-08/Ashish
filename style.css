@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +14,78 @@
 
 
 .sidebar{
-    background-color: blue;
+    background-color: rgb(144, 159, 165);
+    width: 15vw;
+    font-family: 'Libre Bodoni', serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 22px 0;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color: orange;*/
+    height: 40vh;
+    width: 80vw;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 45px;
+    font-family: 'Tapestry', cursive;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 30px;
+    font-family: 'Libre Bodoni', serif;
+}
+.moreabout{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(26, 24, 24);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(26, 24, 24);
+
 }
 
-.main{
-    background-color: yellow;
+.devPic img{
+    height: 60vh;
+    
 }
