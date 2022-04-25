@@ -15,9 +15,11 @@
 
 .sidebar{
     background-color: rgb(144, 159, 165);
-    width: 139px;
+    /* width: 139px; */
     font-family: 'Libre Bodoni', serif;
-    height: auto;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
 }
 .sidebar nav{
     padding: 45px;
@@ -37,10 +39,13 @@
 }
 .main{
     /*background-color: yellow;*/
+    padding-top: 5px;
     width: 85vw;
+    padding-left: 50px;
 }
 .container{
     display: flex;
+    /* padding-left: 10px; */
 }
 .infocontainer{
     /*background-color: orange;*/
@@ -139,6 +144,7 @@
     text-align: justify;
     padding-top: 10px;
     padding-left: 25px;
+    padding-right: 10px;
 }
 .skillscontainer{
     padding-left: 40px;
@@ -146,7 +152,44 @@
 }
 .projectscontainer{
     padding-left: 40px;
+    text-align: justify;
+    padding-top: 10px;
+  
+    padding-right: 10px;
 }
 .list-group-item h4{
     color: darkblue;
+}
+
+.sidebarGo{
+    transform: translate(-300px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    position:absolute;
+    cursor:pointer;
+    top:10px;
+    left: 10px;
+    margin-left: 10px;
+
+}
+.cross{
+    margin-left: 120px;
+}
+@media (max-width: 600px) {
+    *{
+        /* background-color: red; */
+    }
+    .devPic{
+        display: none;
+    }
+    /* .sidebar{
+        transform: translate(-300px,0px);
+        position: absolute; */
+    }
+}
+
+.intro, .blogcontainer, .contactform{
+    margin: 50px 8px;
 }
