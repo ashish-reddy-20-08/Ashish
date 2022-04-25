@@ -17,7 +17,7 @@
     background-color: rgb(144, 159, 165);
     width: 139px;
     font-family: 'Libre Bodoni', serif;
-    height: 100vh;
+    height: auto;
 }
 .sidebar nav{
     padding: 45px;
@@ -143,4 +143,10 @@
 .skillscontainer{
     padding-left: 40px;
     padding-top: 20px;
+}
+.projectscontainer{
+    padding-left: 40px;
+}
+.list-group-item h4{
+    color: darkblue;
 }
