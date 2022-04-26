@@ -193,3 +193,15 @@
 .intro, .blogcontainer, .contactform{
     margin: 50px 8px;
 }
+.downbuttons{
+    text-align:center;
+    height: 45px;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    font-size: 6px;
+    
+    
+   
+}
