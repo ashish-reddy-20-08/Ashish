@@ -10,7 +10,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 
@@ -69,11 +68,9 @@
     font-size: 40px;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
-    text-shadow: #FC0 1px 0 10px;
-    letter-spacing: 4px;
 }
 .about{
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Libre Bodoni', serif;
 }
 .moreabout{
@@ -208,29 +205,3 @@
     
    
 }
-
-.wave {
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;        /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-    display: inline-block;
-  }
-  
-  @keyframes wave-animation {
-      0% { transform: rotate( 0.0deg) }
-     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-     20% { transform: rotate(-8.0deg) }
-     30% { transform: rotate(14.0deg) }
-     40% { transform: rotate(-4.0deg) }
-     50% { transform: rotate(10.0deg) }
-     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-    100% { transform: rotate( 0.0deg) }
-  }
-  
-  
-  
-  
-  /* For demonstration purposes only: */
-  body { font-size: 3.5em }
-  h1 { font-size: 0.5em }
