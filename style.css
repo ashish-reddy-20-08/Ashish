@@ -68,6 +68,8 @@
     font-size: 40px;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
+    text-shadow: rgb(14, 219, 255) 1px 0 10px;
+    letter-spacing: .2rem;
 }
 .about{
     font-size: 22px;
