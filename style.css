@@ -18,7 +18,7 @@
     /* width: 139px; */
     font-family: 'Libre Bodoni', serif;
     height: 100vh;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.5s ease-in;
     position: absolute;
 }
 .sidebar nav{
@@ -175,7 +175,7 @@
 
 }
 .cross{
-    margin-left: 120px;
+    margin-left: 110px;
 }
 @media (max-width: 600px) {
     *{
